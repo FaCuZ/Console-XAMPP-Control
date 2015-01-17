@@ -1,0 +1,34 @@
+#!/bin/bash
+
+case "$1" in 
+# '') 
+#	cd /opt/lampp/htdocs/
+#	pwd
+#	;;
+ 'panel') 
+	sudo /opt/lampp/share/xampp-control-panel/xampp-control-panel
+	;;
+ 'start') 
+	sudo /opt/lampp/lampp start
+	;;
+ 'restart') 
+	sudo /opt/lampp/lampp restart
+	;;
+ 'status') 
+	sudo /opt/lampp/lampp status
+	;;
+ 'stop') 
+	sudo /opt/lampp/lampp stop
+	;;
+ 'net')
+	netstat -ntlp | grep ESCUCHAR
+	;;
+ '80')
+	netstat -ntlp | grep 80
+	;;
+ 'help') echo "Opciones: panel, start, restart, stop y status.";;
+ *) echo "Opciones: panel, start, restart, stop y status.";;
+esac
+
+exit 0
+
