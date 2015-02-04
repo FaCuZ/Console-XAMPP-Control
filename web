@@ -1,9 +1,8 @@
 #!/bin/bash
 
 case "$1" in 
-# '') 
-#	cd /opt/lampp/htdocs/
-#	pwd
+# 'dir') 
+#	webdir
 #	;;
  'panel') 
 	sudo /opt/lampp/share/xampp-control-panel/xampp-control-panel
