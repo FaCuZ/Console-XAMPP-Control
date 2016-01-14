@@ -45,5 +45,5 @@ Atajos:
 * webdir: Ingresa a la carpeta /opt/lampp/htdocs/
 * phpx: Utiliza la version de php de xampp
 * artisan: Ejecuta artisar usando el php de xampp
-* cxc: Idea a ejecutar el comando 'web'
-* local: Idea a ejecutar el comando 'web'
+* cxc: Idem a ejecutar el comando 'web'
+* local: Idem a ejecutar el comando 'web'
