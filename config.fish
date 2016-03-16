@@ -33,6 +33,7 @@ alias webdir='cd /opt/lampp/htdocs/'
 alias xampp='sudo /opt/lampp/share/xampp-control-panel/xampp-control-panel'
 alias cxc='web'
 alias local='web'
+alias phpunit='vendor/bin/phpunit'
 
 #### GIT ####
 set normal (set_color normal)
